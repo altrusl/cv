@@ -1040,7 +1040,7 @@ button,
     letter-spacing: 0.2rem;
     line-height: 2.75rem;
     outline: 0;
-    padding: 0 1.25rem 0 1.35rem;
+    padding: 0 .7rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -1274,7 +1274,8 @@ body.is-loading #bg:before {
     display: block;
     position: absolute;
     top: calc(-3.5rem - 1px);
-    left: calc(50% - 1px);
+    /* left: calc(50% - 1px); */
+    left: calc(50%);
     width: 1px;
     height: calc(3.5rem + 1px);
     background: #ffffff;
@@ -1349,6 +1350,7 @@ body.is-loading #bg:before {
 #header nav ul li {
     padding-left: 0;
     border-left: solid 1px #ffffff;
+    width: 25%;
 }
 
 #header nav ul li:first-child {
@@ -1476,6 +1478,7 @@ body.is-loading #header .content .inner {
     #header nav ul li {
         border-left: 0;
         border-top: solid 1px #ffffff;
+        width: unset;
     }
 
     #header nav ul li:first-child {
@@ -1776,7 +1779,34 @@ article img {
 
 .projects-bar {
     position: sticky;
-    top: 0;
+    top: -8px;
     padding: 0.5em;
+    /* background: #131313; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button.scrollTo {
+    margin: 3px;
     background: #131313;
+}
+
+@media screen and (max-width:480px) {
+    button.scrollTo {        
+        width: 45%;
+    }
+}
+
+#header nav ul li span {
+    min-width: 7.5rem;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    padding: 0 1.25rem 0 1.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    border-bottom: 0;
+    cursor: pointer;
+    display: block;
 }

@@ -1,4 +1,4 @@
-let links = document.querySelectorAll("#header nav a");
+let links = document.querySelectorAll("#header nav span");
 let articles = document.querySelectorAll("#main article");
 let scrollTos = document.querySelectorAll("#main .scrollTo");
 let linksArray = Array.prototype.slice.call(links);
@@ -19,10 +19,13 @@ scrollTos.forEach(scrollTo => {
     scrollTo.addEventListener("click", (event) => {
         // const el = document.querySelector(scrollTo.dataset.target);
         // scrollTo.closest(".article-content").scrollTop = el.offsetTop - 100;
+        let h = document.querySelector(".projects-bar").offsetHeight;
         scrollToElm(
             scrollTo.closest(".article-content"),
             document.querySelector(scrollTo.dataset.target),
-            0.8);
+            0.8, 
+            // 0);
+            -20 - h);
     });
 });
 
@@ -87,9 +90,9 @@ document.addEventListener('keydown', function (e) {
 
 /////////////
 
-function scrollToElm(container, elm, duration) {
+function scrollToElm(container, elm, duration, shift) {
     var pos = getRelativePos(elm);
-    scrollTo(container, pos.top, duration); // duration in seconds
+    scrollTo(container, pos.top, duration, shift); // duration in seconds
 }
 
 function getRelativePos(elm) {
@@ -105,7 +108,8 @@ function getRelativePos(elm) {
     return pos;
 }
 
-function scrollTo(element, to, duration, onDone) {
+function scrollTo(element, to, duration, shift, onDone) {
+    // var start = element.scrollTop + shift,
     var start = element.scrollTop,
         change = to - start,
         startTime = performance.now(),
@@ -116,7 +120,7 @@ function scrollTo(element, to, duration, onDone) {
         elapsed = (now - startTime) / 1000;
         t = (elapsed / duration);
 
-        element.scrollTop = start + change * easeInOutQuad(t);
+        element.scrollTop = start + (change + shift)* easeInOutQuad(t);
 
         if (t < 1)
             window.requestAnimationFrame(animateScroll);
