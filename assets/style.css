@@ -1765,3 +1765,12 @@ article a {
     font-size: 0.6rem;
     letter-spacing: 0.1rem;
 }
+
+article img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.image:before {
+    width: unset;
+}
