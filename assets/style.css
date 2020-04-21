@@ -1699,8 +1699,7 @@ article a {
     width: 100%;
     /* background-color: rgba(27, 31, 34, 1); */
     transition: all 0.3s ease-in-out;
-    padding: 0;
-    padding-bottom: 1em;
+    padding: 1.2em 0;
 }
 
 #main article.visible {
@@ -1750,7 +1749,7 @@ article a {
 
 .article-content {
     padding: 1em 0;
-    padding: 3rem 2.5rem 1.5rem 2.5rem;
+    padding: 0 2.5rem 0.5rem 2.5rem;
     overflow-y: scroll;
     max-height: 86vh
 }
@@ -1773,4 +1772,11 @@ article img {
 
 .image:before {
     width: unset;
+}
+
+.projects-bar {
+    position: sticky;
+    top: 0;
+    padding: 0.5em;
+    background: #131313;
 }
