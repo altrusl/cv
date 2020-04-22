@@ -30,7 +30,7 @@ links.forEach(link => {
     link.addEventListener("click", (event) => {
         main.classList.remove("empty");
         articles.forEach(article => {
-            if (article == document.querySelector(event.target.getAttribute("href"))) {
+            if (article == document.querySelector(event.target.dataset.target)) {
                 article.style.display = "block";
                 setTimeout(() => {
                     article.classList.add("visible");
