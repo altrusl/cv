@@ -17,21 +17,17 @@ document.body.addEventListener("click", (event) => {
 
 scrollTos.forEach(scrollTo => {
     scrollTo.addEventListener("click", (event) => {
-        // const el = document.querySelector(scrollTo.dataset.target);
-        // scrollTo.closest(".article-content").scrollTop = el.offsetTop - 100;
         let h = document.querySelector(".projects-bar").offsetHeight;
         scrollToElm(
             scrollTo.closest(".article-content"),
             document.querySelector(scrollTo.dataset.target),
             0.8, 
-            // 0);
             -20 - h);
     });
 });
 
 links.forEach(link => {
     link.addEventListener("click", (event) => {
-        console.log(event.target.getAttribute("href"));
         main.classList.remove("empty");
         articles.forEach(article => {
             if (article == document.querySelector(event.target.getAttribute("href"))) {
@@ -66,29 +62,12 @@ function closeArticle() {
     });
 }
 
-
 document.addEventListener('keydown', function (e) {
     let keyCode = e.keyCode;
     if (keyCode === 27) {
         closeArticle();
     }
 });
-
-// function addCloseSign(article) {
-//     let cs = document.createElement("div");
-//     cs.classList.add("close-sign");
-//     cs.innerHTML = "&#x274c;";
-//     article.appendChild(cs);
-//     cs.addEventListener("click", function(e) {
-//         article.classList.remove("visible");
-//         setTimeout(() => {
-//             article.style.display = "none";
-//         }, 300);
-//     });
-// }
-
-
-/////////////
 
 function scrollToElm(container, elm, duration, shift) {
     var pos = getRelativePos(elm);

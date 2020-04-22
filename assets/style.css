@@ -1166,9 +1166,10 @@ button {
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-    background-image: url("images/bg3.jpg");
+    background-image: url("images/bg5.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -1688,7 +1689,8 @@ article a {
     width: 40rem;
     max-width: 95vw;
     position: absolute;
-    background-image: url("images/modal-bg.jpg");
+    background-image: url("images/modal-bg4.jpg");
+    background-size: cover;
     transition: all 0.3s ease-in-out;
 }
 
