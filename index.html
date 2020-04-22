@@ -48,12 +48,13 @@
 			<article id="skills">
 				<div class="article-content">
 					<h2 class="major">Education and skills</h2>
-					<span class="image main">
+					<!-- <span class="image main">
 						<picture>
-							<source media="(max-width: 420px)" srcset="images/msu-small.jpg">
+							<source media="(max-width: 420px)" srcset="images/msu-small.jpg"> -->
 							<img src="assets/images/msu.jpg">
-						</picture>
-					</span>
+						<!-- </picture>
+					</span> -->
+
 					<p>
 						Master of Science in Mathematics, 1998
 					<br />
@@ -107,12 +108,7 @@
 						<li>Design patterns, best practices, coding standards</li>
 					</ul>
 
-					<span class="image main">
-						<picture>
-							<source media="(max-width: 420px)" srcset="images/skills-small.jpg">
-							<img src="assets/images/skills2.jpg">
-						</picture>
-					</span>
+					<img src="assets/images/skills.jpg">
 
 				</div>
 			</article>
@@ -126,12 +122,8 @@
 						<a href="https://www.upwork.com/freelancers/~01175193d8379e5f35?viewMode=1" target="_blank">Upwork</a>. 
 						Work on a project is not just a coding, it's rather collaboration with a client.
 					</p>
-					<span class="image main">
-						<picture>
-							<source media="(max-width: 420px)" srcset="images/altay-small.jpg">
-							<img src="assets/images/design-thinking-process.png">
-						</picture>
-					</span>
+					<img src="assets/images/design-thinking-process.png">
+
 					<p>
 						I'd like to describe one such experience as a use-case that outlines my approach
 					</p>
@@ -190,12 +182,8 @@
 			<article id="projects">
 				<div class="article-content">
 					<h2 class="major">Projects</h2>
-					<span class="image main">
-						<picture>
-							<source media="(max-width: 420px)" srcset="images/pic3-small.jpg">
-							<img src="assets/images/project-methodology.jpg">
-						</picture>
-					</span>
+
+					<img src="assets/images/project-methodology.jpg">
 
 					<p>
 						Below is a description of four of my recent projects.
@@ -218,7 +206,7 @@
 					<p>
 						It is fast - it gets 100% on Google Pagespeed. 
 						
-						It is 11KB gzipped without images. Javascript code consists of 100 lines and does not use any libraries
+						It is 11KB gzipped without images. Javascript code consists of about a hundred lines and does not use any libraries
 						(don't use any third-party stuff if you can do without it). It passes W3C. The code is well-formed and neat.
 						It is grinded and polished.
 					</p>
@@ -235,16 +223,16 @@
 
 					<p>
 						Legal licensed online sportsbook targeted to the North American market. 
-						Applications of this kind place high demands on the security, reliability, and scalability of the system.
+						Applications of this kind place high demands on the security, reliability, performance and scalability of the system.
 						My roles included architect, lead developer, DevOps engineer.
 					</p>
 					<p>
-						I wrote the core of the website (javascript, Vue.js, PHP, MySQL),  integrated it with Sportradar - 
-						the largest provider of odds data (java, RabitMQ), completed integration with MoneyMatrix and Bambora - payment solution providers. 
+						I wrote the core of the website (javascript, Vue.js, PHP, MySQL), integrated it with Sportradar - 
+						the largest provider of odds data (java, RabitMQ), and with MoneyMatrix and Bambora - payment solution providers. 
 						Deployed the system on AWS EC2 cluster, tuned load balancing and security. 
 					</p>
 					<p>
-						From technical point of view, the most interesting and difficul part was to provide to a large number of users 
+						From technical point of view, the most interesting and difficult part was to provide to a large number of users 
 						(tens of thousands at the same time) the proper quality of services.
 						For this purpose custom caching system was developed.
 					</p>
@@ -259,21 +247,24 @@
 						and runs surebets (arbitrage) and other strategies to analyze and find most valuable stakes
 					</p>
 					<p>
-						The system grabs events/odds data using website scrapping from several major sportsbook sites - Betfair, Pinnacle, Mozzartbet and others. 
-						Odds update interval (for some particular sport) can be less then 1 second (depends on network conditions and target website performance).
+						The system grabs events/odds data using website scrapping from several major sportsbook sites - 
+						Betfair, Pinnacle, Mozzartbet and others. 
+						Odds update interval (for some particular sport) can be less then 1 second 
+						(depends on network conditions and target website performance).
 					</p>
 					<p>
-						As an add-on i wrote a betting automation bot on Puppeteer (javascript) which automatically placed bets on some sportsbooks
+						As an add-on i wrote a betting automation bot on Puppeteer (javascript) 
+						which automatically places bets on selected sportsbooks.
 					</p>
 
 					<p>
 						The system runs on Hetzner servers, with hundreds and thousand 
-						asynchronously working threads fetching the data.
+						asynchronously working threads fetching and analyzing gigabytes of data every minute.
 						Technically it was a challenge to bypass sportsbook bot defense.
 					</p>
 
 					<p>
-						To search for suitable strategies Big Data methods and mathematical modeling were used.
+						To search for suitable strategies Big Data and mathematical modeling methods were used.
 					</p>
 
 
@@ -293,12 +284,6 @@
 						for generating the documentation in human readable form.
 					</p>
 
-
-					<p>
-					
-					</p>
-					<p>
-					</p>
 				</div>
 			</article>
 
@@ -323,13 +308,7 @@
 					<p>After living and working in Moscow, Miami, Los Angeles, San Francisco 
 						i finally found a perfect place to lead my life.</p>
 
-					<!-- <span class="image main">
-						<picture>
-							<source media="(max-width: 420px)" srcset="images/altay-small.jpg"> -->
-							<img src="assets/images/altay.jpg">
-						<!-- </picture>
-					</span> -->
-					
+					<img src="assets/images/altay.jpg">					
 
 					<p>Mountain Altay, Siberia. GMT+7</p>
 					<p>Welcome</p>
@@ -349,11 +328,6 @@
 	<!-- BG -->
 	<div id="bg"></div>
 
-	<!-- Scripts -->
-	<!-- <script src="assets/js/jquery.min.js"></script> -->
-	<!-- <script src="assets/js/skel.min.js"></script> -->
-	<!-- <script src="assets/js/util.js"></script> -->
-	<!-- <script src="assets/js/main.js"></script> -->
 	<script src="assets/script.js"></script>
 
 	<script>
@@ -370,5 +344,4 @@
 	</script>
 
 </body>
-
 </html>
