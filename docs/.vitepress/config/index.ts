@@ -17,7 +17,11 @@ export default defineConfig({
     ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
   ],
   themeConfig: {
-    logo: "/images/cv-logo.png",
+    // logo: "/images/cv-logo.png",
+    logo: {
+      light: '/images/cv-logo.png',
+      dark: '/images/cv-logo-white.png'
+    },
     search: {
       provider: "local",
     },
