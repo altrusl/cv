@@ -6,7 +6,7 @@ export default defineConfig({
   lang: "en",
   title: "Ruslan Makarov",
   titleTemplate: "Ruslan Makarov CV's - [Software Architect / Principal Engineer]",
-  description: "Software Architect / Principal Engineer",
+  description: "Ruslan Makarov CV's - [Software Architect / Principal Engineer]",
   head: [
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "Vue FAQ" }],
