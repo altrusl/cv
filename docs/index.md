@@ -4,7 +4,7 @@ layout: home
 
 hero:
   # name: "CV"
-  text: "Ruslan Makarov - resume"
+  text: "Ruslan Makarov"
   tagline: Software Architect / Principal Engineer
   actions:
     - theme: brand
