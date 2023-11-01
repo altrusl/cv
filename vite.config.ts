@@ -14,5 +14,6 @@ var options = {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/cv/",
   plugins: [vue(), SearchPlugin(options)],
 });
