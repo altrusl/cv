@@ -10,11 +10,11 @@
     "translate": "node translate.js"
   },
   "dependencies": {
-    "vue": "^3.3.5"
+    "vue": "^3.3.7"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
-    "sass": "^1.69.4",
+    "sass": "^1.69.5",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
     "vitepress": "1.0.0-rc.14"

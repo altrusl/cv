@@ -1,6 +1,6 @@
 # Open source contribution and side work
 
-- Created and managing [Vue-FAQ.org](https://vue-faq.org/) resource
+- Created and manage [Vue-FAQ.org](https://vue-faq.org/) resource
 - Translated into Russian and published online great book of Pablo Garaguzo [Vue.js 3 Design Patterns and Best Practices](https://www.oreilly.com/library/view/vuejs-3-design/9781803238074/)
 - Lead and participate in a number of popular open source projects. Have authored several NPM packages.
 - Write well-received technical articles for major online IT publications
