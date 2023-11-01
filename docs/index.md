@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: Overview
 hero:
   # name: "CV"
   text: "Ruslan Makarov"

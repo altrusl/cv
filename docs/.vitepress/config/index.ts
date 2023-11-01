@@ -5,9 +5,9 @@ export default defineConfig({
   base: "/cv/",
   lang: "en",
   title: "Ruslan Makarov",
+  titleTemplate: "Ruslan Makarov CV's - [Software Architect / Principal Engineer]",
   description: "Software Architect / Principal Engineer",
   head: [
-    // ["meta", { name: "og:type", content: "article" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "Vue FAQ" }],
     ["meta", { property: "og:image", content: "/images/cv-logo.png" }],
