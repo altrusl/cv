@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as i,Q as o}from"./chunks/framework.39e55fa4.js";const f=JSON.parse('{"title":"Education and Skills","description":"","frontmatter":{},"headers":[],"relativePath":"skills.md","filePath":"skills.md"}'),s={name:"skills.md"},t=o("",23),n=[t];function r(l,d,c,h,p,u){return e(),i("div",null,n)}const g=a(s,[["render",r]]);export{f as __pageData,g as default};
