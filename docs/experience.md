@@ -40,7 +40,7 @@ I have gained extensive technical and business experience and deep knowledge in 
 ::: details Details
 Latest projects:
 
-**Surebet scannet/bot automation**: Software system that scraps in real-time data from online sportsbooks and runs surebet (arbitrage) and other strategies to analyze and find most valuable bets. Contains a betting automation bot (Puppeteer) which automatically places bets on selected sportsbooks.
+**Surebet scanner/bot automation**: Software system that scraps in real-time data from online sportsbooks and runs surebet (arbitrage) and other strategies to analyze and find most valuable bets. Contains a betting automation bot (Puppeteer) which automatically places bets on selected sportsbooks.
 
 ![](/images/surebet-scanner.png)
 
