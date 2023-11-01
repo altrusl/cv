@@ -1,19 +1,20 @@
 import { defineConfig } from "vite";
-import { SearchPlugin } from "vitepress-plugin-search";
+// import { SearchPlugin } from "vitepress-plugin-search";
 import vue from "@vitejs/plugin-vue";
 
 //default options
-var options = {
-  ...flexSearchIndexOptions,
-  previewLength: 62,
-  buttonLabel: "Search",
-  placeholder: "Search docs",
-  allow: [],
-  ignore: [],
-};
+// var options = {
+//   // ...flexSearchIndexOptions,
+//   previewLength: 62,
+//   buttonLabel: "Search",
+//   placeholder: "Search docs",
+//   allow: [],
+//   ignore: [],
+// };
 
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/cv/",
-  plugins: [vue(), SearchPlugin(options)],
+  // plugins: [vue(), SearchPlugin(options)],
+  plugins: [vue()],
 });

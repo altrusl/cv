@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/cv/",
   lang: "en",
   title: "Ruslan Makarov",
   description: "Software Architect / Principal Engineer",
