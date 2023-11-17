@@ -15,6 +15,15 @@ export default defineConfig({
     ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/images/cv-logo.png" }],
     ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/images/cv-logo.png" }],
     ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+    ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-67MV8L1RGB" }],
+        [
+          "script",
+          {},
+          `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-67MV8L1RGB');`,
+        ],
   ],
   themeConfig: {
     // logo: "/images/cv-logo.png",
