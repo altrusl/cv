@@ -15,8 +15,8 @@ hero:
       link: /contacts
   image:
     # src: /images/cv-logo.png
-    light: /images/cv-logo.png
-    dark: /images/cv-logo-white.png
+    light: /images/cv-logo.svg
+    dark: /images/cv-logo-white.svg
     alt: CV logo
 
 features:
