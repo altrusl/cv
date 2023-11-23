@@ -7,11 +7,16 @@ Master of Science in Mathematics
 
 Moscow State University, Russia
 
+![](/images/msu.jpg)
+
 ## Certifications
 
 - AWS Certified Solutions Architect – Associate (2021)
 - Sun Certified Java developer (2002)
 - Top rated (100% JSS) developer on Upwork
+
+![](/images/certs.jpg)
+
 
 ## Skills
 

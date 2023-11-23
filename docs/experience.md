@@ -8,6 +8,8 @@
 ::: details Details
 Betkudos is a licensing web application for sports betting and online gambling. I refactored the system, created a new robust architecture, improved the database data model, rewrote the frontend on the latest version of the Vue.js framework. Implemented the web app as PWA.
 
+![](/images/betevet.jpg)
+
 Integrated the system with iGambling data provider (Slotegrator), sports data provider (BetsApi), payment services (Coinspaid, FastlyyPay).
 
 Created a white label solution with easy and convenient automatic brand release.

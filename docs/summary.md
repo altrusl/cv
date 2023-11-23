@@ -6,7 +6,10 @@ Looking forward to a challenging job in a small/medium organization as a princip
 
 My experience allows me to single-handedly build complex web applications, from the business analysis of the requirements to the release of the final product.
 
+![](/images/sdc.jpg)
+
 _Remote position only_
+
 
 ## Summary
 
