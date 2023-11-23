@@ -8,7 +8,7 @@ My experience allows me to single-handedly build complex web applications, from 
 
 ![](/images/sdc.jpg)
 
-_Remote position only, can travel_
+_Remote position only, can visit client locations_
 
 
 ## Summary
