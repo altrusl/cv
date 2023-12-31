@@ -1,6 +1,7 @@
 # Contacts
 
 - Email: [ruslan.makarov@gmail.com](mailto:ruslan.makarov@gmail.com)
+- Twitter/X: [@vuefaq](https://twitter.com/vuefaq)
 - Skype: [@ruslan.makarov@gmail.com](skype:ruslan.makarov@gmail.com?chat)
 - Telegram: [@RuslanMakarov](https://t.me/RuslanMakarov)
 - GitHub: [altrusl](https://github.com/altrusl), [vuesence](https://github.com/vuesence)
