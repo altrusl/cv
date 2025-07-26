@@ -1,6 +1,19 @@
 # Work experience
 
 
+## lepius.com
+###### 2023-2024
+#### CTO
+
+::: details Details
+
+Lepius AI is an application for recommending medical insurance plans to users. It uses AI to process unstructured data and select the most suitable tariff. It is intended for the B2B (insurance brokers) and B2C markets.
+
+I developed the platform architecture, including the backend, frontend, and integration with third-party services. Implemented most of the application. Also, I was responsible for the AI part of the project, including the integration with OpenAI and the development of the NLP part of the system.
+
+*Tech stack: Vue.js, PHP, Python, OpenAI, MySQL, AWS*
+:::
+
 ## Betkudos.com
 ###### 2022-2023
 #### Principal engineer

@@ -28,6 +28,10 @@ I can and like to manage the entire software development process - from sketchin
 
 For more than 25 years, I've worked with many languages and technologies. It makes no sense to list them all, but here are the most important ones.
 
+#### Artificial Intelligence
+
+Experienced in AI technologies, including developing and integrating solutions with OpenAI. Proficient in Natural Language Processing (NLP) and unstructured data analysis to build intelligent systems.
+
 #### Languages
 
 Java, JavaScript/TypeScript/ES6/Node.js, PHP, Python, C/C++, Solidity, SQL, HTML5/CSS3
